@@ -16,8 +16,8 @@
       <h4>Conecte-se</h4>
     </header>
     <form class="login-form" action="#" method="post">
-      <input type="text" class="login-input" placeholder="User" required autofocus/>
-      <input type="password" class="login-input" placeholder="Password" required/>
+      <input type="text" class="login-input" placeholder="Usuário" required autofocus/>
+      <input type="password" class="login-input" placeholder="Senha" required/>
       <div class="submit-container">
         <button type="submit" class="login-button">ENTRAR</button>
       </div>
