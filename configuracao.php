@@ -7,6 +7,6 @@
     <title>Configuração</title>
 </head>
 <body>
-    
+    <h1>Configurações</h1>
 </body>
 </html>
