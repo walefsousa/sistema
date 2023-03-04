@@ -20,10 +20,10 @@
   <div class="sidenav">
     <a href="#">Inicio<i style="padding-left: 12px;font-size: 20px;" class="fa fa-home"></i></a>
     <a href="venda.php">Venda</a>
-    <a href="configuracao.php">Estoque</a>
+    <a href="#">Estoque</a>
     <a href="#">Cadastro</a>
     <a href="#">Estatisticas</a>
-    <a href="#">Configurações</a>
+    <a href="configuracao.php">Configurações</a>
     <a href="#">Ajuda</a>
     <a href="#">Sair</a>
   </div>
