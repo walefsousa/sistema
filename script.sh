@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "teste shell script e git!"
+echo "teste shell script e git, imprimindo echo no terminal"
