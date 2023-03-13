@@ -23,7 +23,7 @@
     <a href="#">Estoque</a>
     <a href="#">Cadastro</a>
     <a href="#">Estatisticas</a>
-    <a href="configuracao.php">Configurações</a>
+    <a href="configuracao.php">Configurações<i class="fa fa-cog" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="#">Ajuda</a>
     <a href="#">Sair</a>
   </div>
