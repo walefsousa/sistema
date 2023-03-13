@@ -12,13 +12,13 @@
 <body>
 
   <div class="topnav">
-    <a href="principal.php">Inicio</a>
+    <a href="principal.php">Volta</a>
     <a href="#">Ajuda</a>
 
   </div>
 
   <div class="content">
-    <h2>Vender</h2>
+    <h2>Venda</h2>
     <p></p>
     <label>Produto<label>
         <input type="text"></input>
