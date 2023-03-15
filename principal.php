@@ -18,7 +18,7 @@
 <body>
 
   <div class="sidenav">
-    <a href="#">Inicio<i class="fa fa-home" style="padding-left: 12px;font-size: 20px;" ></i></a>
+    <a href="#">Inicio<i class="fa fa-home" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="venda.php">Venda<i class="fa fa-shopping-cart" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="#">Estoque<i class="fa fa-database" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="#">Cadastro<i class="fa fa-plus-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
