@@ -20,11 +20,11 @@
   <div class="sidenav">
     <a href="#">Inicio<i class="fa fa-home" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="venda.php">Venda<i class="fa fa-shopping-cart" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="#">Estoque<i class="fa fa-database" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="#">Cadastro<i class="fa fa-plus-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="#">Estatisticas<i class="fa fa-bar-chart" style="padding-left: 12px;font-size: 20px;"></i></a>
+    <a href="estoque.php">Estoque<i class="fa fa-database" style="padding-left: 12px;font-size: 20px;"></i></a>
+    <a href="cadastro.php">Cadastro<i class="fa fa-plus-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
+    <a href="estatistica">Estatisticas<i class="fa fa-bar-chart" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="configuracao.php">Configurações<i class="fa fa-cog" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="#">Ajuda<i class="fa fa-info-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
+    <a href="ajuda">Ajuda<i class="fa fa-info-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="#">Sair<i class="fa fa-sign-out" style="padding-left: 12px;font-size: 20px;"></i></a>
   </div>
 
