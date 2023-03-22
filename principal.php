@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/principal.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -30,14 +29,13 @@
 
   <div class="content">
     <h2>Tela principal</h2>
-    <p>Bem vindo.....</p>
+    <p style="background-color: Azure; border: 1px solid Blue; padding: 4px;">Bem vindo.....</p>
 
-
-    <button class="btn"><i class="fa fa-home"></i></button>
-    <button class="btn"><i class="fa fa-database"></i></button>
-    <button class="btn"><i class="fa fa-trash"></i></button>
-    <button class="btn"><i class="fa fa-close"></i></button>
-    <button class="btn"><i class="fa fa-folder"></i></button>
+    <button class="btn" style="margin: 15px;"><i class="fa fa-home"></i></button>
+    <button class="btn" style="margin: 15px;"><i class="fa fa-database"></i></button>
+    <button class="btn" style="margin: 15px;"><i class="fa fa-trash"></i></button>
+    <button class="btn" style="margin: 15px;"><i class="fa fa-close"></i></button>
+    <button class="btn" style="margin: 15px;"><i class="fa fa-folder"></i></button>
 
   </div>
 

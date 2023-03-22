@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background-image: url( "../images/fundo3.jpg");
-    font-family: "Audiowide", sans-serif;
+    /*font-family: "Audiowide", sans-serif;*/
     
  }
   
@@ -45,7 +45,7 @@ body {
     background-color: DodgerBlue;
     border: none;
     color: white;
-    padding: 20px 20px;
+    padding: 30px 20px;
     font-size: 30px;
     cursor: pointer;
   }
