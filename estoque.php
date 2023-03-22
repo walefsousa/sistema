@@ -24,11 +24,10 @@
         <input type="text"></input>
         <button type="submit">Buscar</button>
         <button type="submit">Adicionar</button>
-  </div>
 
-  <div class="footer">
 
   </div>
+
 
 </body>
 

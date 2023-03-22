@@ -31,11 +31,12 @@
     <h2>Tela principal</h2>
     <p style="background-color: Azure; border: 1px solid Blue; padding: 4px;">Bem vindo.....</p>
 
-    <button class="btn" style="margin: 15px;"><i class="fa fa-home"></i></button>
-    <button class="btn" style="margin: 15px;"><i class="fa fa-database"></i></button>
-    <button class="btn" style="margin: 15px;"><i class="fa fa-trash"></i></button>
-    <button class="btn" style="margin: 15px;"><i class="fa fa-close"></i></button>
-    <button class="btn" style="margin: 15px;"><i class="fa fa-folder"></i></button>
+    <button class="btn" style="margin: 0 10px;"><i class="fa fa-home"></i></button>
+    
+    <button class="btn" style="margin: 0 10px;"><i class="fa fa-database"></i></button>
+    <button class="btn" style="margin: 0 10px;"><i class="fa fa-trash"></i></button>
+    <button class="btn" style="margin: 0 10px;"><i class="fa fa-close"></i></button>
+    <button class="btn" style="margin: 0 10px;"><i class="fa fa-folder"></i></button>
 
   </div>
 

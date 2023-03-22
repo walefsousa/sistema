@@ -24,11 +24,17 @@
         <input type="text"></input>
         <button type="submit">Buscar</button>
         <button type="submit">Adicionar</button>
-  </div>
 
-  <div class="footer">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+ 
+      </div>
 
-  </div>
+ 
 
 </body>
 
