@@ -20,11 +20,11 @@
 
 <div>
   <form action="/action_page.php">
-    <label >Login</label>
-    <br><input type="text" name="login" placeholder="Login"></br>
+  <label >Login</label>
+    <p><input type="text" name="login" placeholder="Login"></p>
 
     <label >Senha</label>
-    <br><input type="text" name="senha" placeholder="Password"></br>
+    <p><input type="password" name="senha" placeholder="Password"></p>
 
     <label for="usuario">Usuário</label>
     <select id="usuario" name="usuario">
@@ -33,7 +33,7 @@
       <option value="teste">Teste</option>
     </select>
   
-    <br><button type="submit" id="botao">Entrar</button></br>
+    <p><button type="submit" id="botao">Entrar</button></p>
 
   </form>
 </div>
