@@ -11,21 +11,28 @@
 </head>
 
 <body>
-    <div class="login-container">
-        <section class="login" id="login">
-            <header>
-                <h2>Sistema de gerenciamento</h2>
-                <h4>Conecte-se</h4>
-            </header>
-            <form class="login-form" action="#" method="post">
-                <input type="text" class="login-input" placeholder="Usuário" required autofocus />
-                <input type="password" class="login-input" placeholder="Senha" required />
-                <div class="submit-container">
-                    <button type="submit" class="login-button">ENTRAR</button>
-                </div>
-            </form>
-        </section>
-    </div>
+   
+<h3>LOGO</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Login</label>
+    <input type="text" id="fname" name="firstname" placeholder="Login">
+
+    <label for="lname">Senha</label>
+    <input type="text" id="lname" name="lastname" placeholder="Password">
+
+    <label for="usuario">Usuário</label>
+    <select id="usuario" name="usuario">
+      <option value="admin">Admin</option>
+      <option value="vendedor">Vendedor</option>
+      <option value="teste">Teste</option>
+    </select>
+  
+    <button type="submit">Entrar</button>
+
+  </form>
+</div>
 </body>
 
 </html>
