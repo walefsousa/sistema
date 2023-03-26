@@ -20,13 +20,13 @@
 
 <div>
   <form action="/action_page.php">
-    <label >Login</label>
+    <label>Login</label>
     <br><input type="text" name="login" placeholder="Login"></br>
 
-    <label >Senha</label>
+    <label>Senha</label>
     <br><input type="text" name="senha" placeholder="Password"></br>
 
-    <label for="usuario">Usuário</label>
+    <label>Usuário</label>
     <select id="usuario" name="usuario">
       <option value="admin">Admin</option>
       <option value="vendedor">Vendedor</option>
