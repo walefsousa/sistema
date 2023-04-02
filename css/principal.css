@@ -59,4 +59,12 @@ body {
       flex-direction: column;
     }
 
+    #sindev{
+
+      min-height: auto;
+      border-right: none;
+      
+    }
+
+
   }
