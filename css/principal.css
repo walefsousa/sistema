@@ -52,3 +52,11 @@ body {
   .btn:hover {
     background-color: RoyalBlue;
   }  
+
+  @media(max-width: 450px) {
+
+    #boby {
+      flex-direction: column;
+    }
+
+  }
