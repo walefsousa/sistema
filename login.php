@@ -7,9 +7,11 @@ if (isset($_POST['usuario'])) {
   $senha = $_POST['senha'];
 
   $sql_code = "SELECT * FROM logins WHERE usuario = '$login' LIMIT 1";
-  $sql_exec = $conn->query($sql_code) or die($mysqli_connect_error);
+  $sql_exec = $mysqli->query($sql_code) or die($mysqli_connect_error);
 
   $usuario = $sql_exec->fetch_assoc();
+
+  
 
 }
 
@@ -31,7 +33,7 @@ if (isset($_POST['usuario'])) {
     <form action="" method="post">
         <p>
             <label>Usuário:</label>
-            <input type="text" name="login"></input>
+            <input type="text" name="usuario"></input>
         </p>
 
         <p>
@@ -52,6 +54,7 @@ if (isset($_POST['usuario'])) {
         } else {
 
             echo "<h3>Usuario ou senha invalido!</h3>";
+            
         } ?>
 
     </form>
