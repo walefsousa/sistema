@@ -1,5 +1,14 @@
 <?php
+  if(isset($_POST['login']) && isset($_POST['senha'])){
+      
+    include('conecxao.php');
 
+    $login = $_POST['login'];
+    $senha = $_POST['senha'];
+
+ //   $sql_code = 'SELECT * FROM '
+
+  }//end if
 
 ?>
 
