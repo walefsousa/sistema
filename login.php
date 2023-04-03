@@ -1,18 +1,19 @@
 <?php
-  if(isset($_POST['login']) && isset($_POST['senha'])){
-      
-    include('conecxao.php');
+if (isset($_POST['usuario'])) {
 
-    $login = $_POST['login'];
-    $senha = $_POST['senha'];
+  include('conexao.php');
 
- //   $sql_code = 'SELECT * FROM '
+  $login = $_POST['usuario'];
+  $senha = $_POST['senha'];
 
-  }//end if
+  $sql_code = "SELECT * FROM logins WHERE usuario = '$login' LIMIT 1";
+  $sql_exec = $conn->query($sql_code) or die($mysqli_connect_error);
+
+  $usuario = $sql_exec->fetch_assoc();
+
+}
 
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -21,39 +22,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>login</title>
 
-    <title>Login</title>
 </head>
 
 <body>
-   
-<h3>LOGO</h3>
+    <h1>Login</h1>
+    <form action="" method="post">
+        <p>
+            <label>Usuário:</label>
+            <input type="text" name="login"></input>
+        </p>
 
-<div>
-  <form action="/action_page.php">
+        <p>
+            <label>Senha:</label>
+            <input type="password" name="senha"></input>
+        </p>
 
-  <p><label >Login</label>
-    <input type="text" name="login" placeholder="Login"></p>
+        <p>
+            <button type="submit"> Entrar </button>
+        </p>
 
-    <p><label >Senha</label>
-    <input type="password" name="senha" placeholder="Password"></p>
+        <?php
+        if (password_verify($senha, $usuario['senha'])) {
 
-    <label>Usuário</label>
-    <select id="usuario" name="usuario">
-      <option value="admin">Admin</option>
-      <option value="vendedor">Vendedor</option>
-      <option value="teste">Teste</option>
-    </select>
-  
-    <p><button type="submit" id="botao">Entrar</button></p>
+            echo "<h3>Bem vindo, $login</h3>";
+            header("Location: principal.php");  //redireciona o usuario para outra tela
 
-  </form>
-</div>
+        } else {
+
+            echo "<h3>Usuario ou senha invalido!</h3>";
+        } ?>
+
+    </form>
 </body>
 
 </html>
