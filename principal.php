@@ -24,7 +24,7 @@
     <a href="estatistica.php">Estatisticas<i class="fa fa-bar-chart" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="configuracao.php">Configurações<i class="fa fa-cog" style="padding-left: 12px;font-size: 20px;"></i></a>
     <a href="ajuda.php">Ajuda<i class="fa fa-info-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="#">Sair<i class="fa fa-sign-out" style="padding-left: 12px;font-size: 20px;"></i></a>
+    <a href="login.php">Sair<i class="fa fa-sign-out" style="padding-left: 12px;font-size: 20px;"></i></a>
   </div>
 
   <div class="content">

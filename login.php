@@ -52,7 +52,6 @@ if (isset($_POST['user'])) {
         } else {
 
             echo "<h3>Usuario ou senha invalido!</h3>";
-            var_dump($usuario);
             
         } ?>
 
