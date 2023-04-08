@@ -1,4 +1,5 @@
 pipeline{
+   
     agenty any
     stages {
         stage('Inicial'){
