@@ -4,7 +4,9 @@ pipeline{
     stages {
         stage('Build image'){
             steps{
-              echo 'teste'
+                script {
+                    dockerapp = docker.build("walefsousa/sistema", ' -f ./docker/Dockerfile ./docker')        
+                }
             }
         } 
     }
