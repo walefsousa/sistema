@@ -6,9 +6,9 @@ pipeline{
             steps{
                 script {
                 
-                    dockerapp = docker.build("walefsousa/sistema", ' -f ./sistema/Dockerfile .')        
+                    dockerapp = docker.build("walefsousa/sistema", ' -f ./sistema/Dockerfile ./')        
                 }
             }
         } 
     }
-}   // 
+}
