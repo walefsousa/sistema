@@ -5,7 +5,7 @@ pipeline{
         stage('Build image'){
             steps{
                 scrypt {
-                    dockerapp = docker.build("sistema_imagem", '-f ./dockerfile/Dockerfile ./dockerfile')        
+                    dockerapp = docker.build("walef/sistema_imagem", ' -f ./dockerfile/Dockerfile ./dockerfile')        
                 }
             }
         } 
