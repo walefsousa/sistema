@@ -2,9 +2,11 @@ pipeline{
    
     agent any
     stages {
-        stage('Inicial'){
+        stage('build image'){
             steps{
-                echo 'Iniciando a pipeline'
+                scrypt {
+                    dockerapp = docker.build("sistema_imagem", '-f ./dockerfile/Dockerfile ./dockerfile')        
+                }
             }
         } 
     }
