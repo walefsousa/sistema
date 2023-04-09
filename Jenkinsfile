@@ -1,14 +1,13 @@
-pipeline{
-   
-    agent any
-    stages {
-        stage('Build image'){
-            steps{
-                script {
-                
-                    dockerapp = docker.build("walefsousa/sistema", ' -f ./sistema/Dockerfile ./')        
-                }
-            }
-        } 
+pipeline {
+    agent {
+        docker { image 'node:16.13.1-alpine' }
     }
-}
+    stages {
+        stage('Test') {
+            steps {
+                sh 'node --version'
+            }
+        }
+    }
+
+}//
