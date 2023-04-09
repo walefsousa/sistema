@@ -13,7 +13,7 @@ pipeline{
         stage ('Push Image') {
             steps{
                 script {
-                     docker.withRegistry('https://registry.hub.docker.com/v2/', 'walef') {
+                     docker.withRegistry('https://hub.docker.com/', 'walef') {
                      dockerapp.push('latest')
                      dockerapp.push("${env.BUILD_ID}")
                        
