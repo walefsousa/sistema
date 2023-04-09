@@ -5,7 +5,7 @@ pipeline{
         stage('Build image'){
             steps{
                 script {
-                    dockerapp = docker.build("walefsousa/sistema", ' -f ./docker/Dockerfile ./docker')        
+                    dockerapp = docker.build("walefsousa/sistem:${env.BIULD_ID}", ' -f ./docker/Dockerfile ./docker')        
                 }
             }
         } 
