@@ -5,9 +5,10 @@ pipeline{
         stage('Build image'){
             steps{
                 script {
-                    dockerapp = docker.build("walefsousa/sistema", ' -f ./src/Dockerfile ./src')        
+                
+                    dockerapp = docker.build("walefsousa/sistema", ' -f ./sistema/Dockerfile ./sistema')        
                 }
             }
         } 
     }
-}  
+}   // 
