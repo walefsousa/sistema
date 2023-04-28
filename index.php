@@ -11,6 +11,8 @@ if (isset($_POST['user'])) {
 
     $usuario = $sql_exec->fetch_assoc();
 
+    
+
     if (password_verify($senha, $usuario['senha'])) {
 
         // echo "<h3>Bem vindo, $login</h3>";
@@ -20,6 +22,7 @@ if (isset($_POST['user'])) {
 
         echo "<h3 style=color:red>Usuario ou senha invalido!</h3>";
     }
+   // print_r($usuario);
 }
 
 ?>
@@ -40,7 +43,7 @@ if (isset($_POST['user'])) {
 
 <body>
     <h1>Login</h1>
-    <form action="method" method="post">
+    <form action="" method="post">
         <p>
             <label>Usuário:</label>
             <input type="text" name="user"></input>
@@ -56,6 +59,8 @@ if (isset($_POST['user'])) {
         </p>
     
     </form>
+
+   
 
 </body>
 
