@@ -6,7 +6,7 @@ if (isset($_POST['login'])) {
     $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
 
 
-    $sql_code = "INSERT INTO logins(login, senha) 
+    $sql_code = "INSERT INTO logins(usuario, senha) 
             VALUES ('$login','$senha')";
 
     $conn->query($sql_code) or die($mysqli_connect_error);
