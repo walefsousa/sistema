@@ -1,4 +1,6 @@
 <?php
+
+
 if (isset($_POST['user'])) {
 
     include('conexao.php');
@@ -14,15 +16,15 @@ if (isset($_POST['user'])) {
     
 
     if (password_verify($senha, $usuario['senha'])) {
-
-        // echo "<h3>Bem vindo, $login</h3>";
+        $nome = $login;
+        //echo "<h3>Bem vindo, $login</h3>";
         header("Location: principal.php");  //redireciona o usuario para outra tela
 
     } else {
 
         echo "<h3 style=color:red>Usuario ou senha invalido!</h3>";
     }
-   // print_r($usuario);
+   
 }
 
 ?>
