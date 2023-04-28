@@ -1,5 +1,6 @@
 <?php
 if (isset($_POST['login'])) {
+    
     include('conexao.php');
 
     $login = $_POST['login'];
@@ -9,7 +10,8 @@ if (isset($_POST['login'])) {
     $sql_code = "INSERT INTO logins(usuario, senha) 
             VALUES ('$login','$senha')";
 
-    $conn->query($sql_code) or die($mysqli_connect_error);
+    $mysqli->query($sql_code) or die($mysqli_connect_error);
+
 } //end if
 ?>
 
@@ -33,7 +35,7 @@ if (isset($_POST['login'])) {
 
         <p>
             <label>Senha:</label>
-            <input type="text" name="senha"></input></br>
+            <input type="password" name="senha"></input></br>
         </p>
 
         <p>
