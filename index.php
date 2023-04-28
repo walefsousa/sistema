@@ -40,7 +40,7 @@ if (isset($_POST['user'])) {
 
 <body>
     <h1>Login</h1>
-    <form action="" method="post">
+    <form action="method" method="post">
         <p>
             <label>Usuário:</label>
             <input type="text" name="user"></input>
