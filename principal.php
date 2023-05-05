@@ -31,14 +31,17 @@
 
   <div class="content">
     <h2>Tela principal</h2>
-    <p style="background-color: Azure; border: 1px solid Blue; padding: 4px;">Bem vindo </p>
+    <?php
+      include('conexao.php');
 
-    <button class="btn" style="margin: 0 10px;"><i class="fa fa-home"></i></button>
+      $sql_code = "SELECT reg, dia FROM register ORDER BY id DESC LIMIT 1;";
+      $sql_exec = $mysqli->query($sql_code) or die($mysqli_connect_error);
 
-    <button class="btn" style="margin: 0 10px;"><i class="fa fa-database"></i></button>
-    <button class="btn" style="margin: 0 10px;"><i class="fa fa-trash"></i></button>
-    <button class="btn" style="margin: 0 10px;"><i class="fa fa-close"></i></button>
-    <button class="btn" style="margin: 0 10px;"><i class="fa fa-folder"></i></button>
+      $usuario = $sql_exec->fetch_assoc();
+  
+    ?>   
+    <p style="background-color: Azure; border: 1px solid Blue; padding: 4px;">Bem vindo <?= $string = implode(" - " , $usuario); ?></p>
+
 
   </div>
 

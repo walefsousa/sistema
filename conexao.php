@@ -1,9 +1,9 @@
 <?php
 
-$hostname = "192.168.11.6";
-$bancodedados = "banco_sistema";
-$usuario = "wms";
-$senha = "Walef1990@";
+$hostname = "localhost";
+$bancodedados = "banco_loja";
+$usuario = "root";
+$senha = "";
 
 $mysqli = new mysqli($hostname, $usuario, $senha, $bancodedados);
 

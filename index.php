@@ -1,6 +1,7 @@
 <?php
 
 
+
 if (isset($_POST['user'])) {
 
     include('conexao.php');
@@ -12,11 +13,14 @@ if (isset($_POST['user'])) {
     $sql_exec = $mysqli->query($sql_code) or die($mysqli_connect_error);
 
     $usuario = $sql_exec->fetch_assoc();
-
     
+    $dia = '24/12/2023';
 
     if (password_verify($senha, $usuario['senha'])) {
-        $nome = $login;
+        
+        $sql_code = "INSERT INTO register(reg, dia) VALUES ('$login', '$dia')";
+        $sql_exec = $mysqli->query($sql_code) or die($mysqli_connect_error);
+        
         //echo "<h3>Bem vindo, $login</h3>";
         header("Location: principal.php");  //redireciona o usuario para outra tela
 
