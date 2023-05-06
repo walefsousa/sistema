@@ -8,7 +8,7 @@ if (isset($_POST['nome'])) {
     $preco = $_POST['preco'];
 
     $sql_code = "INSERT INTO estoque(nome, qtd, preco) 
-            VALUES ('$nome','$qtd', 'preco')";
+            VALUES ('$nome','$qtd', '$preco')";
 
     $mysqli->query($sql_code) or die($mysqli_connect_error);
 
