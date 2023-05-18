@@ -40,7 +40,7 @@ if (isset($_POST['user'])) {
     <title>login</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="#"> 
+    <link rel="stylesheet" href="css/style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -48,25 +48,29 @@ if (isset($_POST['user'])) {
 </head>
 
 <body>
+    
+    <div class="div-log">
     <h1>Login</h1>
     <form action="" method="post">
+        <label class="label">Usuário:</label class="label">
+        <p>            
+            <input class="input" type="text" name="user" placeholder="Username"></input>
+        </p>
+
+        <label class="label">Senha:  </label class="label">
         <p>
-            <label>Usuário:</label>
-            <input type="text" name="user"></input>
+            
+            <input class="input" type="password" name="senha" placeholder="****"></input>
         </p>
 
         <p>
-            <label>Senha:</label>
-            <input type="password" name="senha"></input>
+            <input class="botao" type="submit" value="Entrar"> 
+            <a href="#" class="esq" onclick="alert('Entre em contato com o administrado para relatar a perda de acesso!')">Esqueceu sua senha ?</a>
         </p>
-
-        <p>
-            <button type="submit"> Entrar </button>
-        </p>
-    
+            
     </form>
 
-   
+    </div>
 
 </body>
 
