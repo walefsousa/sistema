@@ -28,6 +28,7 @@ body {
   position: relative;
   top:  -25px;
   left: 25px;   
+  border-radius: 3px;
   
 }
 
