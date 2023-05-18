@@ -14,8 +14,8 @@ body {
     top:  200px;
     left: 640px;
     padding: 2px;
-    border: 2px outset #999; 
-    border-left: 4px solid #666;
+    border: 2px inset #999; 
+     /*border-left: 4px solid #666; */
     
 }
 
