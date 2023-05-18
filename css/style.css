@@ -68,9 +68,12 @@ h1 {
     left: 6px;   
  }
  .esq {
-    text-align: center;   
+    text-align: center;  
+    font-size: 12px; 
     font-family: Arial, Helvetica, sans-serif; 
     color: #666;
+    position: relative;
+    left: 6px;
 
 }
 
