@@ -69,4 +69,11 @@ h1 {
  }
  .esq {
     margin: 0;    
+    color: #666;
+
+}
+
+.esq:hover {
+
+    color: #999;
 }
