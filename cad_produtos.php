@@ -1,7 +1,10 @@
 <?php
+include_once('header.php');
+
 if (isset($_POST['nome'])) {
     
     include('conexao.php');
+    
 
     $nome = $_POST['nome'];
     $qtd = $_POST['qtd'];
@@ -27,49 +30,41 @@ if (isset($_POST['nome'])) {
 </head>
 
 <body>
-   
-<input type="checkbox" name="vehicle1" >
-<label> Produto simples</label>
-<input type="checkbox" name="vehicle2">
-<label> Serviço</label>
-<input type="checkbox" name="vehicle3" >
-<label > Reposição de mercadoria</label><br>    
-
-
+    <h1 class="cad-h1">Cadastro de produtos</h1><br>
     <form action="" method="post">
         <p>
-            <label>Código/Código de barras</label>
-            <input type="text" name="nome"></input>
-            <label>Produto</label>
-            <input type="text" name="nome"></input>
+            <label class="cad-label">Código/Código de barras</label>
+            <input class="cad-input" type="text" name="nome" >
+            <label class="cad-label">Produto</label>
+            <input class="cad-input" type="text" name="nome">
         </p><br>
 
         <p>
-        <label>Quantidade</label>
-            <input type="text" name="qtd"></input>
-            <label>Descrição/Nome</label>
-            <input type="text" name=""></input>
+        <label class="cad-label">Quantidade</label>
+            <input class="cad-input" type="text" name="qtd">
+            <label class="cad-label">Descrição/Nome</label>
+            <input class="cad-input" type="text" name="">
         </p><br>
 
         <p>
-            <label>Preço de venda</label>
-            <input type="text" name="preco"></input>
-            <label>Preço de Custo</label>
-            <input type="text" name=""></input>
-            <label>Lucro %</label>
-            <input type="text" name=""></input>
+            <label class="cad-label">Preço de venda</label>
+            <input class="cad-input" type="text" name="preco">
+            <label class="cad-label">Preço de Custo</label>
+            <input class="cad-input" type="text" name="">
+            <label class="cad-label">Lucro %</label>
+            <input class="cad-input" type="text" name="">
         </p><br>
 
-        <label>Estoque minimo</label>
-            <input type="text" name=""></input>
-            <label>Estoque atual</label>
-            <input type="text" name=""></input>
+        <label class="cad-label">Estoque minimo</label>
+            <input class="cad-input" type="text" name="">
+            <label class="cad-label">Estoque atual</label>
+            <input class="cad-input" type="text" name="">
         </p><br>
 
 
         <p>
-            <button type="submit"> Cadastrar </button>
-            <button type="submit"> Voltar </button>
+        <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
+        <input class="botao-cancelar" type="submit" value="Cancelar"> 
         </p>
         
 

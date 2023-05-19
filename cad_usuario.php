@@ -1,4 +1,7 @@
 <?php
+
+    include_once('header.php');
+
 if (isset($_POST['login'])) {
     
     include('conexao.php');

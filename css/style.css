@@ -45,11 +45,11 @@ body {
    
 }
 input:focus {    
-    border: 3px solid #555;
+    border: 2px solid #555;
  
 }
 
-h1 {
+.h1-login {
     font-size: 30px;
     text-align: center;
     position: relative;
@@ -91,7 +91,6 @@ h1 {
 .body-principal {
     margin: 0;
     background-image: url( "../images/fundo3.jpg");
-    /*font-family: "Audiowide", sans-serif;*/
     
  }
   
@@ -133,3 +132,63 @@ h1 {
     /*text-decoration: underline;*/
 
 }
+
+/* --- Cad_produtos ---*/
+
+.cad-label {
+
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+   margin: 0;
+      
+}
+ .cad-input {
+    border: 1px solid #666;
+    border-radius: 3px;
+ }
+ .cad-input:focus {    
+    border: 2px solid #000;
+ 
+}
+
+.cad-h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.botao-cadastrar {
+    color:  #fff;
+    padding: 5px 70px;
+    text-align: center;
+    background-color: #006400;
+    border: 2px solid #999;
+    position: relative;
+    top:  -10px;
+    left: 20px;   
+    border-radius: 7px;
+    
+  }
+  
+  .botao-cadastrar:hover {
+  
+      background-color: #8FBC8F; 
+     
+  }
+  .botao-cancelar {
+    color:  #fff;
+    padding: 5px 70px;
+    text-align: center;
+    background-color:#B22222;
+    border: 2px solid #999;
+    position: relative;
+    top:  -10px;
+    left: 70px;   
+    border-radius: 7px;
+    
+  }
+  
+  .botao-cancelar:hover {
+  
+      background-color: #F08080; 
+     
+  }

@@ -1,3 +1,7 @@
+<?php
+    include_once('header.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -10,12 +14,6 @@
 </head>
 
 <body>
-
-  <div class="topnav">
-    <a href="principal.php">Volta</a>
-    <a href="#">Ajuda</a>
-
-  </div>
 
   <div class="content">
     <h2>Estoque</h2>

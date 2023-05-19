@@ -50,7 +50,7 @@ if (isset($_POST['user'])) {
 <body>
     
     <div class="div-log">
-    <h1>Login</h1>
+    <h1 class="h1-login">Login</h1>
     <form action="" method="post">
         <label class="label">Usuário:</label class="label">
         <p>            

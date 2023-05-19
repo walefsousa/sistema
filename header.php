@@ -11,8 +11,6 @@
 
 </head>
 
-
-
 <body class="body-principal">
      
   <div class="div-nav"> 
@@ -24,5 +22,5 @@
     <a href="estatistica.php">Estatisticas<i class="fa fa-bar-chart" ></i></a>
     <a href="configuracao.php">Configurações<i class="fa fa-cog" ></i></a>
     <a href="ajuda.php">Ajuda<i class="fa fa-info-circle" ></i></a>
-    <a href="login.php">Sair<i class="fa fa-sign-out" ></i></a>
+    <a href="index.php">Sair<i class="fa fa-sign-out" ></i></a>
   </div>
