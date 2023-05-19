@@ -114,8 +114,7 @@ h1 {
     padding: 25px;
     text-transform: uppercase;
     list-style: none;
-
-
+    
 }
 .div-nav a {
     color: aliceblue;
@@ -134,6 +133,9 @@ h1 {
     /*text-decoration: underline;*/
 
 }
-.div-nav img {
-    width: 60%;
+
+.div-nav .img{
+    position: absolute;
+    top: 10px;
+    left: 9.5%;
 }

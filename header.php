@@ -14,8 +14,9 @@
 
 
 <body class="body-principal">
-<img src="img/logo.jpeg" alt="logo" class="">
-  <div class="div-nav">
+     
+  <div class="div-nav"> 
+    
     <a href="#">Inicio<i class="fa fa-home" ></i></a>
     <a href="venda.php">Venda<i class="fa fa-shopping-cart" ></i></a>
     <a href="estoque.php">Estoque<i class="fa fa-database" ></i></a>
