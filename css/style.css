@@ -86,3 +86,21 @@ h1 {
 
     color: #999;
 }
+
+.body-principal {
+    margin: 0;
+    background-image: url( "../images/fundo3.jpg");
+    /*font-family: "Audiowide", sans-serif;*/
+    
+ }
+  
+.p-nome {
+  background-color: Azure; 
+  border: 1px solid Blue; 
+  padding: 4px; color:blue
+}
+
+.principal {
+
+  color: blue;
+}

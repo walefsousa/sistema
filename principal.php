@@ -6,12 +6,12 @@
   <title>Tela principal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/principal.css">
+  <link rel="stylesheet" href="css/style.css">
 
 
 </head>
 
-<body>
+<body class="body-principal">
 
   <div class="div-nav">
     <a href="#">Inicio<i class="fa fa-home" ></i></a>
