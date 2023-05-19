@@ -115,6 +115,7 @@ h1 {
     text-transform: uppercase;
     list-style: none;
 
+
 }
 .div-nav a {
     color: aliceblue;
@@ -132,4 +133,7 @@ h1 {
    
     /*text-decoration: underline;*/
 
+}
+.div-nav .logo {
+    width: 60%;
 }
