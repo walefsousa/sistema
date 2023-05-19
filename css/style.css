@@ -46,6 +46,10 @@ body {
     border-radius: 3px;
    
 }
+input:focus {    
+    border: 3px solid #555;
+ 
+}
 
 h1 {
     font-size: 30px;
@@ -57,6 +61,7 @@ h1 {
     background-color: #999;
     width: 220px;
     height: 40px;
+  
 
 }
  .label {

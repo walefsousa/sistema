@@ -54,7 +54,7 @@ if (isset($_POST['user'])) {
     <form action="" method="post">
         <label class="label">Usuário:</label class="label">
         <p>            
-            <input class="input" type="text" name="user" placeholder="Username"></input>
+            <input class="input" type="text" name="user" placeholder="login"></input>
         </p>
 
         <label class="label">Senha:  </label class="label">
