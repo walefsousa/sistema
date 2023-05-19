@@ -158,13 +158,13 @@ input:focus {
 
 .botao-cadastrar {
     color:  #fff;
-    padding: 5px 70px;
+    padding: 5px 50px;
     text-align: center;
     background-color: #006400;
     border: 2px solid #999;
     position: relative;
     top:  -10px;
-    left: 20px;   
+    left: 30px;   
     border-radius: 7px;
     
   }
@@ -174,15 +174,52 @@ input:focus {
       background-color: #8FBC8F; 
      
   }
+
+  .botao-alterar {
+    color:  #fff;
+    padding: 6px 50px;
+    text-align: center;
+    background-color:#1E90FF;
+    border: 2px solid #999;
+    position: relative;
+    top:  -10px;
+    left: 50px;   
+    border-radius: 7px;
+    
+  }
+  
+  .botao-alterar:hover {
+  
+      background-color: #87CEFA; 
+     
+  }
+  .botao-limpar {
+    color:  #fff;
+    padding: 6px 50px;
+    text-align: center;
+    background-color:#DAA520;
+    border: 2px solid #999;
+    position: relative;
+    top:  -10px;
+    left: 70px;   
+    border-radius: 7px;
+    
+  }
+  
+  .botao-limpar:hover {
+  
+      background-color: #F0E68C; 
+     
+  }
   .botao-cancelar {
     color:  #fff;
-    padding: 5px 70px;
+    padding: 5px 50px;
     text-align: center;
     background-color:#B22222;
     border: 2px solid #999;
     position: relative;
     top:  -10px;
-    left: 70px;   
+    left: 90px;   
     border-radius: 7px;
     
   }

@@ -64,6 +64,8 @@ if (isset($_POST['nome'])) {
 
         <p>
         <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
+        <input class="botao-alterar" type="submit" value="Alterar"> 
+        <input class="botao-limpar" type="submit" value="Limpar"> 
         <input class="botao-cancelar" type="submit" value="Cancelar"> 
         </p>
         
