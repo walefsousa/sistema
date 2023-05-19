@@ -106,13 +106,6 @@ h1 {
 }
 
 .iv-nav {
+    margin-right: 50%;
 
-    height: 300px;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    background-position-y: -300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
