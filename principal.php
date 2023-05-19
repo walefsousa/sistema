@@ -19,14 +19,14 @@
 <body>
 
   <div class="sidenav">
-    <a href="#">Inicio<i class="fa fa-home" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="venda.php">Venda<i class="fa fa-shopping-cart" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="estoque.php">Estoque<i class="fa fa-database" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="cad_produtos.php">Cadastro<i class="fa fa-plus-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="estatistica.php">Estatisticas<i class="fa fa-bar-chart" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="configuracao.php">Configurações<i class="fa fa-cog" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="ajuda.php">Ajuda<i class="fa fa-info-circle" style="padding-left: 12px;font-size: 20px;"></i></a>
-    <a href="login.php">Sair<i class="fa fa-sign-out" style="padding-left: 12px;font-size: 20px;"></i></a>
+    <a href="#">Inicio<i class="fa fa-home" ></i></a>
+    <a href="venda.php">Venda<i class="fa fa-shopping-cart" ></i></a>
+    <a href="estoque.php">Estoque<i class="fa fa-database" ></i></a>
+    <a href="cad_produtos.php">Cadastro<i class="fa fa-plus-circle" ></i></a>
+    <a href="estatistica.php">Estatisticas<i class="fa fa-bar-chart" ></i></a>
+    <a href="configuracao.php">Configurações<i class="fa fa-cog" ></i></a>
+    <a href="ajuda.php">Ajuda<i class="fa fa-info-circle" ></i></a>
+    <a href="login.php">Sair<i class="fa fa-sign-out" ></i></a>
   </div>
 
   <div class="content">
@@ -40,7 +40,7 @@
       $usuario = $sql_exec->fetch_assoc();
   
     ?>   
-    <p style="background-color: Azure; border: 1px solid Blue; padding: 4px; color:blue">Bem vindo <?= $string = implode(" - " , $usuario); ?></p>
+    <p  class="p-nome">Bem vindo <?= $string = implode(" - " , $usuario); ?></p>
 
 
   </div>

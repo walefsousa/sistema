@@ -6,65 +6,8 @@ body {
     
  }
   
-  /* Style the side navigation */
-  .sidenav {
-   
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    font-family: 'Ubuntu', sans-serif;
-  }
-  
-  
-  /* Side navigation links */
-  .sidenav a {
-    color: white;
-    padding: 14px;
-    text-decoration: none;
-    display: block;
-   
-  }
-  
-  /* Change color on hover */
-  .sidenav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Style the content */
-  .content {
-    margin-left: 200px;
-    padding-left: 20px;
-  }
-  .btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 30px 20px;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  .btn:hover {
-    background-color: RoyalBlue;
-  }  
-
-  @media(max-width: 450px) {
-
-    #boby {
-      flex-direction: column;
-    }
-
-    #sindev{
-
-      min-height: auto;
-      border-right: none;
-      
-    }
-
-
-  }
+.p-nome {
+  background-color: Azure; 
+  border: 1px solid Blue; 
+  padding: 4px; color:blue
+}
