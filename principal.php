@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -25,7 +24,7 @@
     <a href="login.php">Sair<i class="fa fa-sign-out" ></i></a>
   </div>
 
-  <div class="content">
+  <div class="principal">
     <h2>Tela principal</h2>
     <?php
       include('conexao.php');
@@ -36,7 +35,7 @@
       $usuario = $sql_exec->fetch_assoc();
   
     ?>   
-    <p  class="p-nome">Bem vindo <?= $string = implode(" - " , $usuario); ?></p>
+    <p class="p-nome">Bem vindo <?= $string = implode(" - " , $usuario); ?></p>
 
   </div>
 
