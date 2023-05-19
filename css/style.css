@@ -87,6 +87,9 @@ h1 {
     color: #999;
 }
 
+
+/* PRINCIPAL */
+
 .body-principal {
     margin: 0;
     background-image: url( "../images/fundo3.jpg");
@@ -106,6 +109,9 @@ h1 {
 }
 
 .iv-nav {
-    margin-right: 50%;
+    color: #fff;
+    
+    background-color: #000;    
+    text-align: center;
 
 }
