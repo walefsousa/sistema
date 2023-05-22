@@ -100,11 +100,6 @@ input:focus {
   padding: 4px; color:blue
 }
 
-.principal {
-
-  color: red;
-}
-
 .div-nav {
     display: flex;
     align-items: center;
