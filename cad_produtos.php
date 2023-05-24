@@ -35,15 +35,9 @@ if (isset($_POST['nome'])) {
         <p>
             <label class="cad-label">Código/Código de barras</label>
             <input class="cad-input" type="text" name="nome" >
-            <label class="cad-label">Produto</label>
-            <input class="cad-input" type="text" name="nome">
-        </p><br>
-
-        <p>
-        <label class="cad-label">Quantidade</label>
-            <input class="cad-input" type="text" name="qtd">
             <label class="cad-label">Descrição/Nome</label>
             <input class="cad-input" type="text" name="">
+          
         </p><br>
 
         <p>
@@ -55,18 +49,21 @@ if (isset($_POST['nome'])) {
             <input class="cad-input" type="text" name="">
         </p><br>
 
-        <label class="cad-label">Estoque minimo</label>
+        <p> 
+            <label class="cad-label">Estoque minimo</label>
             <input class="cad-input" type="text" name="">
             <label class="cad-label">Estoque atual</label>
             <input class="cad-input" type="text" name="">
+            <label class="cad-label">Quantidade</label>
+            <input class="cad-input" type="text" name="qtd">
         </p><br>
 
 
         <p>
-        <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
-        <input class="botao-alterar" type="submit" value="Alterar"> 
-        <input class="botao-limpar" type="submit" value="Limpar"> 
-        <input class="botao-cancelar" type="submit" value="Cancelar"> 
+            <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
+            <input class="botao-alterar" type="submit" value="Alterar"> 
+            <input class="botao-limpar" type="submit" value="Limpar"> 
+            <input class="botao-cancelar" type="submit" value="Cancelar"> 
         </p>
         
 

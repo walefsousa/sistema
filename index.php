@@ -52,12 +52,12 @@ if (isset($_POST['user'])) {
     <div class="div-log">
     <h1 class="h1-login">Login</h1>
     <form action="" method="post">
-        <label class="label">Usuário:</label class="label">
+        <label class="label">Usuário:</label>
         <p>            
             <input class="input" type="text" name="user" placeholder="login"></input>
         </p>
 
-        <label class="label">Senha:  </label class="label">
+        <label class="label">Senha:  </label>
         <p>
             
             <input class="input" type="password" name="senha" placeholder="****"></input>
