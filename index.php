@@ -50,7 +50,8 @@ if (isset($_POST['user'])) {
 <body>
     
     <div class="div-log">
-    <h1 class="h1-login">Login</h1>
+    
+    <img src="images/login1.png" alt="" class="img-login">
     <form action="" method="post">
         <label class="label">Usuário:</label>
         <p>            
