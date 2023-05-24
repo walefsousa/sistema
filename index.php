@@ -54,13 +54,13 @@ if (isset($_POST['user'])) {
     <form action="" method="post">
         <label class="label">Usuário:</label>
         <p>            
-            <input class="input" type="text" name="user" placeholder="login"></input>
+            <input class="input" type="text" name="user" placeholder="login" minlength="1" maxlength="10" required></input>
         </p>
 
         <label class="label">Senha:  </label>
         <p>
             
-            <input class="input" type="password" name="senha" placeholder="****"></input>
+            <input class="input" type="password" name="senha" placeholder="****" minlength="4" maxlength="8" required></input>
         </p>
 
         <p>

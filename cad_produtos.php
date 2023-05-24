@@ -34,28 +34,28 @@ if (isset($_POST['nome'])) {
     <form action="" method="post">
         <p>
             <label class="cad-label">Código/Código de barras</label>
-            <input class="cad-input" type="text" name="nome" >
+            <input class="cad-input" type="text" name="nome"minlength="1" maxlength="30" required >
             <label class="cad-label">Descrição/Nome</label>
-            <input class="cad-input" type="text" name="">
+            <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
           
         </p><br>
 
         <p>
             <label class="cad-label">Preço de venda</label>
-            <input class="cad-input" type="text" name="preco">
+            <input class="cad-input" type="text" name="preco" minlength="1" maxlength="30" required>
             <label class="cad-label">Preço de Custo</label>
-            <input class="cad-input" type="text" name="">
+            <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
             <label class="cad-label">Lucro %</label>
-            <input class="cad-input" type="text" name="">
+            <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
         </p><br>
 
         <p> 
             <label class="cad-label">Estoque minimo</label>
-            <input class="cad-input" type="text" name="">
+            <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
             <label class="cad-label">Estoque atual</label>
-            <input class="cad-input" type="text" name="">
+            <input class="cad-input" type="text" name=""minlength="1" maxlength="30" required>
             <label class="cad-label">Quantidade</label>
-            <input class="cad-input" type="text" name="qtd">
+            <input class="cad-input" type="text" name="qtd"minlength="1" maxlength="30" required>
         </p><br>
 
 
