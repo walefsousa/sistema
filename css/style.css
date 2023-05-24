@@ -95,6 +95,17 @@ input:focus {
 .esq:hover {
 
     color: #999;
+
+
+}
+
+@media(max-width:480px){
+
+
+    .div-log{
+       width: 100%;        
+    }
+
 }
 
 
