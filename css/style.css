@@ -1,6 +1,10 @@
 body {
     margin: 0;
     background-image: url('../images/back.jpg');
+    position: absolute;
+    
+    left: 20px;
+
 }
 
 .div-log {
