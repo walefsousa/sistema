@@ -13,8 +13,9 @@ if (isset($_POST['user'])) {
     $sql_exec = $mysqli->query($sql_code) or die($mysqli_connect_error);
 
     $usuario = $sql_exec->fetch_assoc();
-    
-    $dia = '24/12/2023';
+
+    date_default_timezone_set('America/Sao_Paulo');
+    $dia = date('d/m/y' .' - ' . 'H:i:s');
 
     if (password_verify($senha, $usuario['senha'])) {
         
