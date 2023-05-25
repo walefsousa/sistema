@@ -25,7 +25,7 @@ if (isset($_POST['user'])) {
         header("Location: principal.php");  //redireciona o usuario para outra tela
 
     } else { ?>
-        <a onclick="alert('Senha ou usuario invalido!!!')"></a>
+        <h3>Senha ou usuario invalido!!!</h3>
      <?php   
     }
    
