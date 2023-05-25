@@ -26,7 +26,8 @@ if (isset($_POST['user'])) {
 
     } else {
 
-        echo "<h3 style=color:red>Usuario ou senha invalido!</h3>";
+        echo '<p onclick="alert(Senha ou usuario inválidos></p>';
+        //echo "<h3 style=color:red>Usuario ou senha invalido!</h3>";
     }
    
 }
