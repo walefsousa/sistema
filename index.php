@@ -24,10 +24,9 @@ if (isset($_POST['user'])) {
         //echo "<h3>Bem vindo, $login</h3>";
         header("Location: principal.php");  //redireciona o usuario para outra tela
 
-    } else {
-
-        echo '<p onclick="alert(Senha ou usuario inválidos></p>';
-        //echo "<h3 style=color:red>Usuario ou senha invalido!</h3>";
+    } else { ?>
+        <a onclick="alert('Senha ou usuario invalido!!!')"></a>
+     <?php   
     }
    
 }
