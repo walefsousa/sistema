@@ -1,0 +1,41 @@
+CREATE DATABASE banco_loja;
+
+USE banco_loja;
+
+CREATE TABLE logins(
+			
+        id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
+        usuario VARCHAR (30) NOT NULL,
+        senha VARCHAR (100) NOT NULL,
+         
+        PRIMARY KEY (id)
+);
+
+CREATE TABLE estoque (
+		id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
+		nome VARCHAR(100) NOT NULL UNIQUE,
+        qtd INT UNSIGNED,
+        preco DOUBLE,
+        
+		PRIMARY KEY (id)
+);
+
+CREATE TABLE register (
+		id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
+		reg VARCHAR(100) NOT NULL,
+        dia VARCHAR(30),
+        
+		PRIMARY KEY (id)
+);
+
+INSERT INTO logins (usuario, senha)
+VALUES ('walef', 'walef');
+
+select * from estoque;
+
+SELECT reg, dia FROM register ORDER BY id DESC LIMIT 1;
+
+delete from logins where id = 5;
+
+drop table register;
+
