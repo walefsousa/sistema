@@ -20,6 +20,8 @@
         <input type="search" class="input-buscar" placeholder="Pesquisar..." minlength="1" maxlength="55" required></input>
         <input type="submit" class="botao-buscar" name="btn-buscar" value="Buscar">
     </div>
-  
+    <div>
+       
+    </div>  
 </body>
 </html>

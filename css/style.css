@@ -275,12 +275,12 @@ h3 {
     background-color: #87CEFA; 
    
 }
-
+ 
 /*--- Vendas ---*/
 
 .container-vendas {
     position: absolute;
-    left: 450px;
+    left: 430px;
     top: 70px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
