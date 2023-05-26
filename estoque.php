@@ -15,13 +15,11 @@
 <body>
 
   <div class="container-estoque"> 
-    <h1>Estoque</h1>
-    
+    <h1>Estoque</h1>    
       <label>Produto<label>
-        <input type="search" class="input-buscar" minlength="1" maxlength="60" required></input>
+        <input type="search" class="input-buscar" placeholder="Pesquisar..." minlength="1" maxlength="55" required></input>
         <input type="submit" class="botao-buscar" name="btn-buscar" value="Buscar">
     </div>
   
 </body>
-
 </html>
