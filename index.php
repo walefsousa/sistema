@@ -25,7 +25,6 @@ if (isset($_POST['user'])) {
         //echo "<h3>Bem vindo, $login</h3>";
         header("Location: principal.php");  //redireciona o usuario para outra tela
 
-        $mysqli->close();
 
     } else { ?>
         <h3>Senha ou usuario invalido!!!</h3>

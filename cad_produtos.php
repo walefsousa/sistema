@@ -31,7 +31,7 @@ if (isset($_POST['nome'])) {
 </head>
 
 <body>
-    <h1 class="titulo-abas">Cadastro de produtos</h1><br>
+    <h1 class="cad-h1">Cadastro de produtos</h1><br>
     <form action="" method="post">
         <p>
             <label class="cad-label">Código/Código de barras</label>
