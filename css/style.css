@@ -149,7 +149,7 @@ h3 {
 
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px;
-   margin: 0;
+    margin: 0;
       
 }
  .cad-input {
@@ -238,4 +238,18 @@ h3 {
   
       background-color: #F08080; 
      
+  }
+
+  /* --- Estoque --- */
+
+
+  .input-buscar {
+    border: 5px solid #666;
+    border-radius: 3px;
+
+  }
+
+  .titulo-estoque {
+    text-align: center;
+    color: #006400;
   }
