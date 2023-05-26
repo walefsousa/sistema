@@ -19,7 +19,7 @@
   
     <label>Produto<label>
         <input type="search" class="input-buscar" minlength="1" maxlength="30" required></input>
-        <input type="submit" class="botao-alterar" name="btn-buscar" value="Buscar">
+        <input type="submit" class="botao-buscar" name="btn-buscar" value="Buscar">
 
   </div> 
 

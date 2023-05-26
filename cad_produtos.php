@@ -31,7 +31,7 @@ if (isset($_POST['nome'])) {
 </head>
 
 <body>
-    <h1 class="cad-h1">Cadastro de produtos</h1><br>
+    <h1 class="titulo-abas">Cadastro de produtos</h1><br>
     <form action="" method="post">
         <p>
             <label class="cad-label">Código/Código de barras</label>
@@ -56,7 +56,7 @@ if (isset($_POST['nome'])) {
             <label class="cad-label">Estoque atual</label>
             <input class="cad-input" type="text" name=""minlength="1" maxlength="30" required>
             <label class="cad-label">Quantidade</label>
-            <input class="cad-input" type="text" name="qtd"minlength="1" maxlength="30" required>
+            <input class="cad-input" type="number" name="qtd"minlength="1" maxlength="30" required>
         </p><br>
 
 
