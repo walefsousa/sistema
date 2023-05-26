@@ -9,20 +9,19 @@
   <title>Estoque</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
   <div class="container-estoque">
-    <h2 class="titulo-estoque">Estoque</h2>
+    <h1 class="titulo-estoque">Estoque</h1>
   
     <label>Produto<label>
         <input type="search" class="input-buscar" minlength="1" maxlength="30" required></input>
         <input type="submit" class="botao-alterar" name="btn-buscar" value="Buscar">
 
-  </div>
+  </div> 
 
 </body>
 
