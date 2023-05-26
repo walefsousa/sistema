@@ -11,8 +11,6 @@
     ?>   
     <p class="p-nome">Bem vindo <?= $string = implode(" - " , $usuario); ?></p>
 
-    <?php $mysqli->close(); ?>
-
   </div>
 
 </body>
