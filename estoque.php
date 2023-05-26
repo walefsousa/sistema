@@ -14,7 +14,7 @@
 
 <body>
 
-  <div class="container-estoque">
+  <div class="container-estoque"> 
     <h1>Estoque</h1>
     
       <label>Produto<label>
