@@ -31,31 +31,31 @@ if (isset($_POST['nome'])) {
 </head>
 
 <body>
-    <h1 class="cad-h1">Cadastro de produtos</h1><br>
+    <h1 class="titulo-abas">Cadastro de produtos</h1><br>
     <form action="" method="post">
         <p>
-            <label class="cad-label">Código/Código de barras</label>
+            <label class="label-abas">Código/Código de barras</label>
             <input class="cad-input" type="text" name="nome"minlength="1" maxlength="30" required >
-            <label class="cad-label">Descrição/Nome</label>
+            <label class="label-abas">Descrição/Nome</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
           
         </p><br>
 
         <p>
-            <label class="cad-label">Preço de venda</label>
+            <label class="label-abas">Preço de venda</label>
             <input class="cad-input" type="text" name="preco" minlength="1" maxlength="30" required>
-            <label class="cad-label">Preço de Custo</label>
+            <label class="label-abas">Preço de Custo</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
-            <label class="cad-label">Lucro %</label>
+            <label class="label-abas>Lucro %</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
         </p><br>
 
         <p> 
-            <label class="cad-label">Estoque minimo</label>
+            <label class="label-abas">Estoque minimo</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
-            <label class="cad-label">Estoque atual</label>
+            <label class="label-abas">Estoque atual</label>
             <input class="cad-input" type="text" name=""minlength="1" maxlength="30" required>
-            <label class="cad-label">Quantidade</label>
+            <label class="label-abas">Quantidade</label>
             <input class="cad-input" type="number" name="qtd"minlength="1" maxlength="30" required>
         </p><br>
 

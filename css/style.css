@@ -145,7 +145,7 @@ h3 {
 
 /* --- Cad_produtos ---*/
 
-.cad-label {
+.label-abas {
 
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 15px;
@@ -161,7 +161,7 @@ h3 {
  
 }
 
-.cad-h1 {
+.titulo-abas {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -242,7 +242,15 @@ h3 {
 
   /* --- Estoque --- */
 
+.container-estoque {
+    position: absolute;
+    left: 500px;
+    top: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
 
-.titulo-estoque {
-    color: violet;
+  .input-buscar {
+    width: 400px;
+    height: 20px;
 }
