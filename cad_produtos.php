@@ -1,9 +1,9 @@
 <?php
 include_once('header.php');
-include('conexao.php');
-
 
 if (isset($_POST['codigo1'])) {
+
+    include('conexao.php');
   
     $codigo1 = $_POST['codigo1'];
     $nome1 = $_POST['nome1'];
