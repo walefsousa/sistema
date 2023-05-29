@@ -63,7 +63,11 @@ if (isset($_POST['nome'])) {
             <input class="cad-input" type="number" name="qtd"minlength="1" maxlength="30" required>
         </div>
         <div class="input-4">
-           
+            <input type="file" 
+                multiple accept="image/png, image/jpeg, image/jpg" 
+                id="image" 
+                name="images" 
+            >
         </div>
 
         <div class="input-5">
