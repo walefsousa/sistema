@@ -1,8 +1,10 @@
 <?php
 include_once('header.php');
-include('conexao.php');
+
 
 if (isset($_POST['codigo'])) {
+
+    include('conexao.php');
     
     $codigo = $_POST['codigo'];
     $nome = $_POST['nome'];
@@ -66,7 +68,7 @@ if (isset($_POST['codigo'])) {
                 multiple accept="image/png, image/jpeg, image/jpg" 
                 id="image" 
                 name="images" 
-                required>
+            >
         </div>
 
         <div class="input-5">
