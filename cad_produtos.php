@@ -72,9 +72,9 @@ if (isset($_POST['nome'])) {
 
         <div class="input-5">
             <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
-            <input class="botao-alterar" type="" value="Alterar"> 
-            <input class="botao-limpar" type="" value="Limpar"> 
-            <input class="botao-cancelar" type="" value="Cancelar"> 
+            <input class="botao-alterar" type="submit" value="Alterar"> 
+            <input class="botao-limpar" type="reset" value="Limpar"> 
+            <input class="botao-cancelar" type="reset" value="Cancelar"> 
         </div>
     </form>
 </body>

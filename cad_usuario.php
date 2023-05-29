@@ -42,7 +42,7 @@ if (isset($_POST['login'])) {
         </p>
 
         <p>
-            <button type="submit"> Cadastrar </button>
+            <input type="submit" name="Cadastrar"> 
         </p>
 
     </form>
