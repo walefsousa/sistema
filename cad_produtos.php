@@ -1,11 +1,9 @@
 <?php
 include_once('header.php');
+include('conexao.php');
 
 if (isset($_POST['codigo'])) {
     
-    include('conexao.php');
-    
-
     $codigo = $_POST['codigo'];
     $nome = $_POST['nome'];
     $preco_venda = $_POST['preco_venda'];
