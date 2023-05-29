@@ -1,7 +1,8 @@
 <?php
 include_once('header.php');
 
-if (isset($_POST['codigo1'])) {
+
+if (isset($_POST['nome1'])) {
 
     include('conexao.php');
   
