@@ -1,11 +1,10 @@
 <?php
 include_once('header.php');
+include('conexao.php');
 
 
 if (isset($_POST['nome'])) {
-
-    include('conexao.php');
-    
+  
     $codigo1 = $_POST['codigo'];
     $nome1 = $_POST['nome'];
     $preco_venda1 = $_POST['preco_venda'];
@@ -73,9 +72,9 @@ if (isset($_POST['nome'])) {
 
         <div class="input-5">
             <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
-            <input class="botao-alterar" type="submit" value="Alterar"> 
-            <input class="botao-limpar" type="submit" value="Limpar"> 
-            <input class="botao-cancelar" type="submit" value="Cancelar"> 
+            <input class="botao-alterar" type="" value="Alterar"> 
+            <input class="botao-limpar" type="" value="Limpar"> 
+            <input class="botao-cancelar" type="" value="Cancelar"> 
         </div>
     </form>
 </body>
