@@ -2,7 +2,7 @@
 include_once('header.php');
 
 
-if (isset($_POST['codigo'])) {
+if (isset($_POST['nome'])) {
 
     include('conexao.php');
     
