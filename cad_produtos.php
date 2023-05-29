@@ -13,10 +13,10 @@ if (isset($_POST['codigo'])) {
     $estoque_min = $_POST['estoque_min'];
     $estoque_atual = $_POST['estoque_atual'];
     $qtd = $_POST['qtd'];
-    $img = $_POST['images'];
+   //$img = $_POST['images'];
 
     $sql_code = "INSERT INTO estoque(codigo, nome, preco_venda, preco_custo, estoque_minimo, estoque_atual, qtd, img) 
-            VALUES ('$codigo','$nome', '$preco_venda', '$preco_custo' , '$estoque_min',' $estoque_atual',' $qtd','$img')";
+            VALUES ('$codigo','$nome', '$preco_venda', '$preco_custo' , '$estoque_min',' $estoque_atual',' $qtd)";
 
     $mysqli->query($sql_code) or die($mysqli_connect_error);
 
