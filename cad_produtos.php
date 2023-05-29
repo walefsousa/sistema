@@ -35,7 +35,7 @@ if (isset($_POST['nome'])) {
 </head>
 
 <body>
-    <h1 class="titulo-abas">Cadastro de produtos</h1><br>
+    <h1 class="titulo-abas">Cadastro de produtos</h1>
     <form action="" method="post">
         <div class="input-1">
             <label class="label-abas">Código/Código de barras</label>
@@ -63,11 +63,7 @@ if (isset($_POST['nome'])) {
             <input class="cad-input" type="number" name="qtd"minlength="1" maxlength="30" required>
         </div>
         <div class="input-4">
-            <input type="file" 
-                multiple accept="image/png, image/jpeg, image/jpg" 
-                id="image" 
-                name="images" 
-            >
+           
         </div>
 
         <div class="input-5">
