@@ -13,9 +13,14 @@ CREATE TABLE logins(
 
 CREATE TABLE estoque (
 		id INT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE,
-		nome VARCHAR(100) NOT NULL UNIQUE,
+		codigo INT UNSIGNED NOT NULL UNIQUE,
+        nome VARCHAR(100) NOT NULL UNIQUE,
+        preco_venda FLOAT NOT NULL,
+        preco_custo FLOAT NOT NULL,
+        estoque_minimo INT UNSIGNED NOT NULL,
+        estoque_atual INT UNSIGNED NOT NULL,
         qtd INT UNSIGNED,
-        preco DOUBLE,
+        img LONGBLOB,
         
 		PRIMARY KEY (id)
 );
@@ -37,5 +42,5 @@ SELECT reg, dia FROM register ORDER BY id DESC LIMIT 1;
 
 delete from logins where id = 5;
 
-drop table register;
+drop table estoque;
 
