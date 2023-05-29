@@ -6,17 +6,17 @@ if (isset($_POST['nome'])) {
 
     include('conexao.php');
     
-    $codigo = $_POST['codigo'];
-    $nome = $_POST['nome'];
-    $preco_venda = $_POST['preco_venda'];
-    $preco_custo = $_POST['preco_custo'];
-    $estoque_min = $_POST['estoque_min'];
-    $estoque_atual = $_POST['estoque_atual'];
-    $qtd = $_POST['qtd'];
+    $codigo1 = $_POST['codigo'];
+    $nome1 = $_POST['nome'];
+    $preco_venda1 = $_POST['preco_venda'];
+    $preco_custo1 = $_POST['preco_custo'];
+    $estoque_min1 = $_POST['estoque_min'];
+    $estoque_atual1 = $_POST['estoque_atual'];
+    $qtd1 = $_POST['qtd'];
    //$img = $_POST['images'];
 
     $sql_code = "INSERT INTO estoque(codigo, nome, preco_venda, preco_custo, estoque_minimo, estoque_atual, qtd) 
-            VALUES ('$codigo','$nome', '$preco_venda', '$preco_custo' , '$estoque_min',' $estoque_atual',' $qtd')";
+            VALUES ('$codigo1','$nome1', '$preco_venda1', '$preco_custo1' , '$estoque_min1',' $estoque_atual1',' $qtd1')";
 
     $mysqli->query($sql_code) or die($mysqli_connect_error);
 
