@@ -33,41 +33,45 @@ if (isset($_POST['nome'])) {
 <body>
     <h1 class="titulo-abas">Cadastro de produtos</h1><br>
     <form action="" method="post">
-        <p>
+        <div class="input-1">
             <label class="label-abas">Código/Código de barras</label>
             <input class="cad-input" type="text" name="nome"minlength="1" maxlength="30" required >
             <label class="label-abas">Descrição/Nome</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
           
-        </p><br>
+        </div>
 
-        <p>
+        <div class="input-2">
             <label class="label-abas">Preço de venda</label>
             <input class="cad-input" type="text" name="preco" minlength="1" maxlength="30" required>
             <label class="label-abas">Preço de Custo</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
-            <label class="label-abas>Lucro %</label>
+            <label class="label-abas">Lucro %</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
-        </p><br>
+        </div>
 
-        <p> 
+        <div class="input-3"> 
             <label class="label-abas">Estoque minimo</label>
             <input class="cad-input" type="text" name="" minlength="1" maxlength="30" required>
             <label class="label-abas">Estoque atual</label>
             <input class="cad-input" type="text" name=""minlength="1" maxlength="30" required>
             <label class="label-abas">Quantidade</label>
             <input class="cad-input" type="number" name="qtd"minlength="1" maxlength="30" required>
-        </p><br>
+        </div>
+        <div class="input-4">
+            <input type="file" 
+                multiple accept="image/png, image/jpeg" 
+                id="image" 
+                name="images" 
+                required>
+        </div>
 
-
-        <p>
+        <div class="input-5">
             <input class="botao-cadastrar" type="submit" value="Cadastrar"> 
             <input class="botao-alterar" type="submit" value="Alterar"> 
             <input class="botao-limpar" type="submit" value="Limpar"> 
             <input class="botao-cancelar" type="submit" value="Cancelar"> 
-        </p>
-        
-
+        </div>
     </form>
 </body>
 </html>
