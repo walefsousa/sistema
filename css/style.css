@@ -24,17 +24,21 @@ body {
     padding: 5px 70px;
     text-align: center;
     background-color: #1E90FF;
-    border: 2px solid #999;
+    border: 2px solid transparent;
     position: relative;
     top: 25px;
     left: 25px;
     border-radius: 3px;
+    cursor: pointer;
+    transition: .5s;
 
 }
 
 .botao:hover {
 
-    background-color: #B0C4DE;
+    background-color: #FFF;
+    border-color: #1E90FF;
+    color: #1E90FF;
 
 }
 
