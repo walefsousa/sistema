@@ -48,30 +48,27 @@ if (isset($_POST['user'])) {
 
 <body>
     
-    <div class="div-log">
-    
-    <img src="images/login1.png" alt="" class="img-login">
-    <form action="" method="post">
-        <label class="label">Usuário:</label>
-        <p>            
-            <input class="input" type="text" name="user" placeholder="login" minlength="1" maxlength="10" required></input>
-        </p>
+    <div class="div-log">    
+        <img src="images/login1.png" alt="" class="img-login">
+        <form action="" method="post">
+        
+            <div class="input1">            
+                <label class="label">Usuário:</label><br>
+                <input class="input" type="text" name="user" placeholder="login" minlength="1" maxlength="10" required></input>
+            </div>        
+            <div class="input2">     
+                <label class="label">Senha:  </label><br>
+                <input class="input" type="password" name="senha" placeholder="****" minlength="4" maxlength="8" required></input>
+            </div>
 
-        <label class="label">Senha:  </label>
-        <p>
-            
-            <input class="input" type="password" name="senha" placeholder="****" minlength="4" maxlength="8" required></input>
-        </p>
-
-        <p>
-            <input class="botao" type="submit" value="Entrar"> 
-            <a href="#" class="esq" onclick="alert('Entre em contato com o administrado para relatar a perda de acesso!')">Esqueceu sua senha ?</a>
-        </p>
-            
-    </form>
-
+            <div class="input3">
+                <input class="botao" type="submit" value="Entrar"> 
+            </div>
+            <div class="input4">
+                <a href="#" class="esq" onclick="alert('Entre em contato com o administrado para relatar a perda de acesso!')">Esqueceu sua senha ?</a>
+            </div>
+        </form>
     </div>
-
 </body>
 
 </html>
