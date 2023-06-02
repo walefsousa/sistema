@@ -11,72 +11,74 @@ body {
     width: 230px;
     height: 290px;
     position: absolute;
-    top:  180px;
+    top: 180px;
     left: 640px;
     padding: 2px;
-    border: 2px inset #999; 
-     /*border-left: 4px solid #666; */
-    
+    border: 2px inset #999;
+    /*border-left: 4px solid #666; */
+
 }
 
 .botao {
-  color:  #fff;
-  padding: 5px 70px;
-  text-align: center;
-  background-color: #1E90FF;
-  border: 2px solid #999;
-  position: relative;
-  top:  25px;
-  left: 25px;   
-  border-radius: 3px;
-  
+    color: #fff;
+    padding: 5px 70px;
+    text-align: center;
+    background-color: #1E90FF;
+    border: 2px solid #999;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    border-radius: 3px;
+
 }
 
 .botao:hover {
 
-    background-color: #B0C4DE; 
-   
+    background-color: #B0C4DE;
+
 }
 
 .input {
     position: relative;
-    top:  7px;
-    left: 10px;    
+    top: 7px;
+    left: 10px;
     border: 1px solid #eee;
     border-radius: 3px;
-   
+
 }
-input:focus {    
+
+input:focus {
     border: 1px solid #555;
- 
+
 }
 
 .img-login {
     position: relative;
-    top:  10px;
-    left: 11px;  
+    top: 10px;
+    left: 11px;
     width: 200px;
     height: 48px;
-        
-} 
+
+}
 
 
- .label {
+.label {
     color: #999;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top:  22px;
-    left: 10px;   
- }
- .esq {
-    text-align: center;  
-    font-size: 12px; 
-    font-family: Arial, Helvetica, sans-serif; 
+    top: 22px;
+    left: 10px;
+}
+
+.esq {
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #666;
     position: relative;
     left: 10px;
-    top:  40px;
+    top: 40px;
 
 }
 
@@ -88,13 +90,13 @@ input:focus {
 }
 
 h3 {
-    
+
     color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 300px;
     position: absolute;
     left: 600px;
-    top:  45px;
+    top: 45px;
     text-align: center;
 
 }
@@ -105,14 +107,15 @@ h3 {
 
 .body-principal {
     margin: 0;
-    background-image: url( "../images/fundo3.jpg");
-    
- }
-  
+    background-image: url("../images/fundo3.jpg");
+
+}
+
 .p-nome {
-  background-color: Azure; 
-  border: 1px solid Blue; 
-  padding: 4px; color:blue
+    background-color: Azure;
+    border: 1px solid Blue;
+    padding: 4px;
+    color: blue
 }
 
 .div-nav {
@@ -123,8 +126,9 @@ h3 {
     padding: 25px;
     text-transform: uppercase;
     list-style: none;
-    
+
 }
+
 .div-nav a {
     color: aliceblue;
     text-decoration: none;
@@ -132,13 +136,13 @@ h3 {
     font-size: 13px;
     margin: 0 10px;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif; 
-    
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .div-nav a:hover {
     color: #999;
-   
+
     /*text-decoration: underline;*/
 
 }
@@ -147,18 +151,20 @@ h3 {
 
 .label-abas {
 
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     margin: 0;
-      
+
 }
- .cad-input {
+
+.cad-input {
     border: 1px solid #666;
     border-radius: 3px;
- }
- .cad-input:focus {    
+}
+
+.cad-input:focus {
     border: 2px solid #000;
- 
+
 }
 
 .input-1 {
@@ -172,21 +178,25 @@ h3 {
     left: 100px;
     top: 220px;
 }
+
 .input-2 {
     position: absolute;
     left: 100px;
     top: 280px;
 }
+
 .input-3 {
     position: absolute;
     left: 100px;
     top: 340px;
 }
+
 .input-4 {
     position: absolute;
     left: 100px;
     top: 410px;
 }
+
 .input-5 {
     position: absolute;
     left: 100px;
@@ -195,119 +205,123 @@ h3 {
 
 .titulo-abas {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .botao-cadastrar {
-    color:  #fff;
+    color: #fff;
     padding: 5px 50px;
     text-align: center;
     background-color: #006400;
     border: 2px solid #999;
     position: relative;
-    top:  -10px;
-    left: 30px;   
+    top: -10px;
+    left: 30px;
     border-radius: 7px;
-    
-  }
-  
-  .botao-cadastrar:hover {
-  
-      background-color: #8FBC8F; 
-     
-  }
 
-  .botao-alterar {
-    color:  #fff;
+}
+
+.botao-cadastrar:hover {
+
+    background-color: #8FBC8F;
+
+}
+
+.botao-alterar {
+    color: #fff;
     padding: 6px 50px;
     text-align: center;
-    background-color:#1E90FF;
+    background-color: #1E90FF;
     border: 2px solid #999;
     position: relative;
-    top:  -10px;
-    left: 50px;   
+    top: -10px;
+    left: 50px;
     border-radius: 7px;
-    
-  }
-  
-  .botao-alterar:hover {
-  
-      background-color: #87CEFA; 
-     
-  }
-  .botao-limpar {
-    color:  #fff;
+
+}
+
+.botao-alterar:hover {
+
+    background-color: #87CEFA;
+
+}
+
+.botao-limpar {
+    color: #fff;
     padding: 6px 50px;
     text-align: center;
-    background-color:#DAA520;
+    background-color: #DAA520;
     border: 2px solid #999;
     position: relative;
-    top:  -10px;
-    left: 70px;   
+    top: -10px;
+    left: 70px;
     border-radius: 7px;
-    
-  }
-  
-  .botao-limpar:hover {
-  
-      background-color: #F0E68C; 
-     
-  }
-  .botao-cancelar {
-    color:  #fff;
+
+}
+
+.botao-limpar:hover {
+
+    background-color: #F0E68C;
+
+}
+
+.botao-cancelar {
+    color: #fff;
     padding: 5px 50px;
     text-align: center;
-    background-color:#B22222;
+    background-color: #B22222;
     border: 2px solid #999;
     position: relative;
-    top:  -10px;
-    left: 90px;   
+    top: -10px;
+    left: 90px;
     border-radius: 7px;
-    
-  }
-  
-  .botao-cancelar:hover {
-  
-      background-color: #F08080; 
-     
-  }
 
-  /* --- Estoque --- */
+}
+
+.botao-cancelar:hover {
+
+    background-color: #F08080;
+
+}
+
+/* --- Estoque --- */
 
 .container-estoque {
     position: absolute;
     left: 450px;
     top: 70px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-  .input-buscar {
+.input-buscar {
     width: 400px;
     height: 20px;
     position: relative;
-    top:  -1px;
-    left: 8px;   
-}/**/
+    top: -1px;
+    left: 8px;
+}
+
+/**/
 
 .botao-buscar {
-    color:  #fff;
+    color: #fff;
     padding: 5px 25px;
     text-align: center;
-    background-color:#1E90FF;
+    background-color: #1E90FF;
     border: 2px solid #999;
     position: relative;
-    top:  -1px;
-    left: 22px;   
+    top: -1px;
+    left: 22px;
     border-radius: 7px;
 }
 
 .botao-buscar:hover {
-  
-    background-color: #87CEFA; 
-   
+
+    background-color: #87CEFA;
+
 }
- 
+
 /*--- Vendas ---*/
 
 .container-vendas {
@@ -315,5 +329,5 @@ h3 {
     left: 430px;
     top: 70px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
