@@ -54,7 +54,7 @@ if (isset($_POST['user'])) {
         
             <div class="input1">            
                 <label class="label">Usuário:</label><br>
-                <input class="input" type="text" name="user" placeholder="login" minlength="1" maxlength="10" required></input>
+                <input class="input" type="text" name="user" placeholder="login" minlength="1" maxlength="10" required></input>  
             </div>        
             <div class="input2">     
                 <label class="label">Senha:  </label><br>
